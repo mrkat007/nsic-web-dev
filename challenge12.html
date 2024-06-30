@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bug 11</title>
+    <style>
+        p {color: red;
+        background-color: yellow;}
+    </style>
+</head>
+<body>
+    <h1>Style Example</h1>
+    <p>This is a styled paragraph</p>
+    <!--The closing </p> tag was missing-->
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bug 12</title>
+    <!--styling for the tags-->
+    <style>
+        h1{
+            text-align: center;
+        }
+        ul{
+            background-color: antiquewhite;
+        }
+        li{
+            display: inline;
+            padding: 20px;
+            font-size: large;            
+        }
+    </style>
+</head>
+<body>
+    <h1>Website Navigation</h1>
+    <!-- Missing navigation links -->
+    <div>
+        <center>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!--The navigation links are directed to different sections in the same page-->
+        
+            <section id="home">
+                <h2>Home</h2>
+                <p>This is the home page!</p>
+            </section>
+        
+            <section id="about">
+                <h2>About</h2>
+                <p>This is the About page.</p>
+            </section>
+        
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Contact us here</p>
+            </section>
+        </center>
+        
+    </div>
+</body>
+</html>
+
