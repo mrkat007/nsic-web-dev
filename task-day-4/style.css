@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(255, 247, 237);
+    font-family: "Poppins", sans-serif;
+
+}
+.navcontainer{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.logo{
+    margin-left: 50px;
+    padding: 10px;
+
+}
+.navcontent{
+    display: flex;
+    gap: 30px; /* Adds space between navigation links */
+    margin: 0;
+    padding-right: 10px;
+    list-style: none;
+}
+
+.navcontent li{
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.navcontent li:hover{
+    background-color: rgba(99, 96, 88, 0.344);
+    border-radius: 30px;
+}
+.container{
+    display: flex;
+    margin: 20px;
+}
+.main{
+    height: 500px;
+    padding: 0 50px;
+    width: 60%;
+}
+.main h1{
+    font-size: 50px;
+}
+img{
+    border-radius: 10px;
+    height: 500px;
+}
