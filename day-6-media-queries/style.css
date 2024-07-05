@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+.rect{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+    
+}
+.r1{
+    background-color: rgb(212, 255, 175);
+
+}
+.r2{
+    background-color: rgb(251, 228, 255);
+
+}
+.rect:hover{
+    height: 320px;
+    width: 320px;
+    border-radius: 30px;
+    transition: 0.5s;
+    background-color: rgb(29, 36, 24);
+    color: aliceblue;
+}
+.content{
+    height: 250px;
+    width: 300px;
+}
+
+/* Media Queries */
+@media screen and (max-width:600px) {
+    .rect{
+        background-color: aquamarine;
+    }
+    .rect:hover{
+        background-color: burlywood;
+    }
+    
+}

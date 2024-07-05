@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Registeration Form</title>
+<style>
+    body{
+        font-family: "Poppins", sans-serif;
+        background-image: url("bg.jpg");
+        }
+    form{
+        margin: 30px;
+        width: fit-content;
+        padding:20px 60px 20px;
+        background-color: rgba(255, 249, 249, 0.755);
+        border: 2px solid rgba(128, 128, 128, 0.255);
+        border-radius: 20px;
+    }
+    div{
+        padding: 10px;
+    }
+    input, select{
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    button{
+       
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px;
+        width: 100px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    button:hover{
+        background-color: bisque;
+    }
+</style>
+</head>
+<body>
+    <center>
+        <div class="head">
+            <h1 style="color: azure;">Welcome to the Book Club!</h1>
+        </div>
+        <hr>
+        <h1 style="color: beige;">Registeration Form</h1>
+        <div class="forms">
+            <form action="" method="post">
+                <h2>Personal Information</h2>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your Name">
+                </div>
+                <br>
+                <div>
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" name="mail" placeholder="Enter your Email">
+                </div>
+                <br>
+                <div>
+                    <label for="num">Phone Number</label>
+                    <input type="tel" id="num" name="num" placeholder="Enter your Phone Number">
+                </div>
+                <br>
+                <div>
+                    <label for="Age">Age</label>
+                    <input type="date" id="age" name="age">
+                </div>
+                <h2>Book Interests</h2>
+                <div>
+                    <label for="genre">Your Favorite Genre?</label>
+                    <br><br>
+                    <input type="checkbox" id="fic" name="fic">
+                    <label for="fic">Fiction</label>
+                    <br>
+                    <input type="checkbox" id="nfic" name="nfic">
+                    <label for="nfic">Non Fiction</label>
+                    <br>
+                    <input type="checkbox" id="mys" name="mys">
+                    <label for="mys">Mystery</label>
+                    <br>
+                    <input type="checkbox" id="rom" name="rom">
+                    <label for="rom">Romance</label>
+                    <br>
+                    <input type="checkbox" id="fan" name="fan">
+                    <label for="fan">Fantasy</label>
+                    <br>
+                    <input type="checkbox" id="sci" name="sci">
+                    <label for="sci">Sci-Fi</label>
+                    <br>
+                    <input type="checkbox" id="bio" name="bio">
+                    <label for="bio">Biography</label>
+                    <br>
+                    <label for="other">Other</label>
+                    <input type="text">
+                </div>
+                <h2>Tell us about your Favorite Author</h2>
+                <div>
+                    <label for="auth">Author</label>
+                    <input type="text" id="auth" name="auth">
+                    <br><br>
+                    <label for="what">What draws you to or inspires you about your favourite author?</label>
+                    <br><br>
+                    <textarea name="paragraph_text" cols="50" rows="6" style="border-radius: 5px;"></textarea>
+                    <br>
+                </div>
+                <h2>Preferred Reading Format</h2>
+                <div>
+                    <input type="radio" id="b1">
+                    <label for="b1">Physical Books</label>
+                    <br>
+                    <input type="radio" id="b2">
+                    <label for="b2">E Books</label>
+                    <br>
+                    <input type="radio" id="b3">
+                    <label for="b3">Audiobooks</label>
+                </div>
+                <h2>Membership Type</h2>
+                <div>
+                    <label for="mem"></label>
+                    <select name="mem" id="mem">
+                        <option value="mem" selected disabled>Select Membership Type</option>
+                        <option value="mem1">Student</option>
+                        <option value="mem2">Standard</option>
+                        <option value="mem3">Premium</option>
+                    </select>
+                </div>
+                <br>
+                <button><a href="#">Submit</a></button>
+            </form>
+        </div>
+    </center>
+   
+</body>
+</html>
